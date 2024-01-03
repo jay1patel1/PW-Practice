@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .groceryCard {
+            width: 300px;
+            height: 430px;
+            border: 2px solid gray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            border-radius: 10px;
+        }
+        .groceryCard img {
+            height: 300px;
+            width: auto;
+            margin-top: 10px;
+        }
+        .groceryCard .text .sponsored {
+            margin: 5px 0 0 0;
+            font-size: small;
+            color: lightslategray;
+        }
+        .groceryCard .text .description {
+            margin: 5px 0 0 0;
+            font-size: medium;
+            color: black;
+        }
+        .groceryCard .text .price {
+            margin: 5px 0 0 0;
+            font-size: large;
+            color: red;
+        }
+        .groceryCard .text .price .struck {
+            margin: 0 0 0 10px;
+            font-size: medium;
+            color: gray;
+            text-decoration: line-through;
+        }
+        .groceryCard .text .price .discount {
+            margin: 0 0 0 10px;
+            font-size: medium;
+            color: green;
+            font-weight: bold;
+        }
+        .groceryCard .buttons {
+            margin: 5px 0 0 0;
+            width: 100%;
+            /*border: 2px solid gray;*/
+            display: flex;
+        }
+        .groceryCard .buttons button {
+            width: 45%;
+            height: 40px;
+            margin: 0 0 0 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="groceryCard">
+    <img src="https://rukminim2.flixcart.com/image/280/280/xif0q/pulses/4/7/z/-original-imagsy5zsdhu9f6v.jpeg?q=70" alt="">
+    <div class="text">
+        <p class="sponsored">
+            Sponsored
+        </p>
+        <p class="description">
+            Natureland Organics Moong Dal (Split)
+        </p>
+        <p class="price">
+            ₹228<span class="struck">₹275</span><span class="discount">17% off</span>
+        </p>
+    </div>
+    <div class="buttons">
+    <button type="submit" class="Weight">1kg</button>
+    <button class="addItem" type="submit">Add Item</button>
+    </div>
+</div>
+</body>
+</html>
