@@ -31,6 +31,6 @@ function abc(n, n2) {
 }
 
 
-abc(4,34)
-abc(64,34)
+abc(2,8)
+abc(69,50)
 abc(34,34)
